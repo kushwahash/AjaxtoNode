@@ -1,0 +1,21 @@
+{
+  "name": "AjaxtoNode",
+  "version": "1.0.0",
+  "description": "Sample project showing connection between ajax to Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --inspect app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kushwahash/AjaxtoNode.git"
+  },
+  "author": "Shailesh Kushwaha",
+  "license": "",
+  "dependencies": {
+    "express": "^4.16.3",
+    "cors": "^2.8.4",
+    "twitter": "^1.7.1"
+  }
+}
